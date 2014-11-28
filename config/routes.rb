@@ -1,5 +1,5 @@
 WechatDemo2::Application.routes.draw do
-#  devise_for :users, :path => "auth", :path_names => { :sign_in => 'login', :sign_out => 'logout', :password => 'secret', :confirmation => 'verification', :registration => '', :sign_up => 'signup' }, :controllers => { :registrations => "registrations", :omniauth_callbacks => "omniauth_callbacks", :confirmations => 'confirmations' }
+  devise_for :users, :path => "auth", :path_names => { :sign_in => 'login', :sign_out => 'logout', :password => 'secret', :confirmation => 'verification', :registration => '', :sign_up => 'signup' }, :controllers => { :registrations => "registrations", :omniauth_callbacks => "omniauth_callbacks", :confirmations => 'confirmations' }
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
